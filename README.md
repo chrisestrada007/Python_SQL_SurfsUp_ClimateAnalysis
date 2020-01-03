@@ -2,7 +2,7 @@
 
 ## Climate Analysis and Exploration
 
-To begin, I used Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analysis was completed using SQLAlchemy ORM queries, Pandas, and Matplotlib
+I used Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analysis was completed using SQLAlchemy ORM queries, Pandas, and Matplotlib
 
 * Chose a start date and end date
 
@@ -14,11 +14,7 @@ To begin, I used Python and SQLAlchemy to do basic climate analysis and data exp
 
 * Designed a query to retrieve the last 12 months of precipitation data
 
-* Selected only the `date` and `prcp` values
-
 * Loaded the query results into a Pandas DataFrame and set the index to the date column
-
-* Sorted the DataFrame values by `date`
 
 * Ploted the results using the DataFrame `plot` method
 
@@ -30,13 +26,9 @@ To begin, I used Python and SQLAlchemy to do basic climate analysis and data exp
 
 * Designed a query to find the most active stations
 
-  * Listed the stations and observation counts in descending order
-
 * Designed a query to retrieve the last 12 months of temperature observation data (tobs)
 
-  * Filtered by the station with the highest number of observations
-
-  * Ploted the results as a histogram with `bins=12`
+* Ploted the results as a histogram with `bins=12`
 
 ### Temperature Analysis
 
